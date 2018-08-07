@@ -10,8 +10,62 @@ h1,h2{
     font-weight: 800
 }
  
+ header{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     height: 100px;
+     margin-left: 0px;
+     background-color: beige;
+ }
+ #cachoro{
+     height: 20px;
+    width: 10px;
+ }
+
+ #video{
+     height: 250px;
+     width: 500px;
+     margin-left: 250px;
+ }
+ .menu a{
+font-size: 20px;
+text-decoration: none;
+margin-left: 15px;
+color: blueviolet;
+padding: 20px;
+margin-top: 20px;
+ }
+
+ .menu img{
+     height: 90%;
+     width: 100px;
+     position:relative;
+     margin-left: 100px;
+ }
+
 p{
     margin-left: 10px;
+}
+
+.legenda{
+    color: black;
+    font-size:15px;
+    font-style: italic
+}
+
+.rodape{
+    background-color: beige;
+    display: flex;
+    height: 50px;
+}
+
+#especial{
+    border: solid black 3px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 15px;
 }
 
 button{
@@ -19,6 +73,4 @@ button{
     background-color: beige;
     border-radius: 10%;
     padding: 10px;
-    
-
 }
